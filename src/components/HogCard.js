@@ -19,7 +19,7 @@ export default class HogCard extends React.Component {
 				</div>
 				<div className="content">
 					<div className="header">{name}</div>
-					<div className="description">Hog description</div>
+					<div className="description">Speciality:{specialty}</div>
 				</div>
 				{this.state.showDetails && (
 					<div className="extra content">
